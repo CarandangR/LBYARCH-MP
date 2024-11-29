@@ -12,6 +12,10 @@
 - Google Sheets Link
 </a>
 
+## Comparative Analysis
+![image](https://github.com/user-attachments/assets/2bde86de-ddb8-41f0-b79d-a38d19ccb62e)
+
+
 ## Instructions on how to run the Program
 1. Clone the repository to your Local Computer
 2. Make sure that you have `gcc` compiler along with the assembly compiler. Do note that the project used NASM as an assembly compiler.
