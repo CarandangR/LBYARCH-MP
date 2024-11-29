@@ -3,9 +3,11 @@ section .data
 section .text
 bits 64
 default rel
-global scalarCompute
+global assemblyCompute
+global compute_start
+global exit
 
-scalarCompute:
+assemblyCompute:
     xor r8, r8               
 
 compute_start:
