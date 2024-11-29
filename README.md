@@ -8,9 +8,8 @@
 ### The aim of this project is to implement and apply the SAXPY function using C for user input and assembly for computational purposes. Furthermore, this project uses the `time.h` library to compare the time difference between the application of SAXPY through the use of C alone and C with assembly used for computations.
 
 ## Important Links
-<a href = "https://docs.google.com/spreadsheets/d/1pxjaLjrpqlia0G-htxE7v_ePE7JZzUAg8gkum9WhNz0/edit?usp=sharing" target = "blank">
-- Google Sheets Link
-</a>
+- <a href = "https://docs.google.com/spreadsheets/d/1pxjaLjrpqlia0G-htxE7v_ePE7JZzUAg8gkum9WhNz0/edit?usp=sharing" target = "blank"> Google Sheets Link </a>
+- <a href = "https://youtu.be/vBe84-GRmoU" target = "blank"> Youtube Video Link </a>
 
 ## Comparative Analysis
 ![image](https://github.com/user-attachments/assets/2bde86de-ddb8-41f0-b79d-a38d19ccb62e)
