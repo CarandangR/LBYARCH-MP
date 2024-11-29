@@ -11,6 +11,15 @@
 - <a href = "https://docs.google.com/spreadsheets/d/1pxjaLjrpqlia0G-htxE7v_ePE7JZzUAg8gkum9WhNz0/edit?usp=sharing" target = "blank"> Google Sheets Link </a>
 - <a href = "https://youtu.be/vBe84-GRmoU" target = "blank"> Youtube Video Link </a>
 
+## Sample Output
+### Sample run using C for User interface and SAXPY Operation
+![image](https://github.com/user-attachments/assets/bc7bba2e-4a5a-44c1-96a9-ca33b8a970c8)
+
+### Sample run using C for user interface and Assembly for the SAXPY Operation
+![image](https://github.com/user-attachments/assets/41870c2a-390d-4e3d-a9ef-feb9a6f952a9)
+
+This is a sample output of the program. It takes the first 10 values that the program has computed. Through these outputs, both outputs act as a sanity check between each other.
+
 ## Comparative Analysis
 ![image](https://github.com/user-attachments/assets/2bde86de-ddb8-41f0-b79d-a38d19ccb62e)
 - In all the given cases, Assembly (x86_64) performed significantly faster than its C counterpart, with Assembly performing 45-62% faster than C. This highlights Assembly's advantage when it comes to computational execution speeds due to it being directly assembled to the machine's CPU.
