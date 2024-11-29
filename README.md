@@ -15,4 +15,4 @@
 ## Instructions on how to run the Program
 1. Clone the repository to your Local Computer
 2. Make sure that you have `gcc` compiler along with the assembly compiler. Do note that the project used NASM as an assembly compiler.
-3. Run the `.bat` file found in the folder to run the program.
+3. Run the `startprogram.bat` file found in the folder to run the program.
