@@ -25,8 +25,14 @@ void menu()
 int main() 
 {
     int choice;
-    int size = 1048576;
-    float A = 2.0;
+    int size;
+    float A;
+
+    printf("Enter the size of the arrays (e.g., 1048576): ");
+    scanf("%d", &size);
+
+    printf("Enter the scalar value A (e.g., 2.0): ");
+    scanf("%f", &A);
 
     float *X = (float *)_aligned_malloc(size * sizeof(float), 16);
     float *Y = (float *)_aligned_malloc(size * sizeof(float), 16);
