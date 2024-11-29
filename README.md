@@ -14,6 +14,7 @@
 
 ## Comparative Analysis
 ![image](https://github.com/user-attachments/assets/2bde86de-ddb8-41f0-b79d-a38d19ccb62e)
+- In all the given cases, Assembly (x86_64) performed significantly faster than its C counterpart, with Assembly performing 45-62% faster than C. This highlights Assembly's advantage when it comes to computational execution speeds due to it being directly assembled to the machine's CPU.
 
 
 ## Instructions on how to run the Program
