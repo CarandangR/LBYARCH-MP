@@ -28,9 +28,9 @@ int main()
     int size = 1048576;
     float A = 2.0;
 
-    float *X = (float *)malloc(size * sizeof(float));
-    float *Y = (float *)malloc(size * sizeof(float));
-    float *Z = (float *)malloc(size * sizeof(float));
+    float *X = (float *)_aligned_malloc(size * sizeof(float), 16);
+    float *Y = (float *)_aligned_malloc(size * sizeof(float), 16);
+    float *Z = (float *)_aligned_malloc(size * sizeof(float), 16);
 
     if (!X || !Y || !Z) 
 	{

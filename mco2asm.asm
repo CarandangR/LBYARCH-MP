@@ -1,31 +1,26 @@
-section .data
-
 section .text
 bits 64
 default rel
 global assemblyCompute
-global compute_start
-global exit
 
 assemblyCompute:
-    xor r8, r8               
+    xor r12, r12
 
 compute_start:
-    cmp r8, rcx             
-    jge exit
+    cmp r12, rcx
+    jge compute_exit
 
-    movss xmm1, dword [rdi + r8 * 4]
+    movss xmm1, dword [rdx + r12 * 4]
+    mulss xmm1, xmm0
 
-    mulss xmm1, xmm0        
+    movss xmm2, dword [r8 + r12 * 4]
 
-    movss xmm2, dword [rsi + r8 * 4]
+    addss xmm1, xmm2
 
-    addss xmm1, xmm2        
+    movss dword [r9 + r12 * 4], xmm1
 
-    movss dword [rdx + r8 * 4], xmm1
-
-    inc r8                   
+    inc r12
     jmp compute_start
 
-exit:
+compute_exit:
     ret
