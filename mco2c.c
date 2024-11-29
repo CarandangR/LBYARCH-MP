@@ -4,7 +4,8 @@
 
 void scalarCompute(float A, float X[], float Y[], float Z[], int size) 
 {
-    for (int i = 0; i < size; i++) 
+    int i;
+    for (i = 0; i < size; i++) 
 	{
         Z[i] = (A * X[i]) + Y[i];
     }
@@ -41,7 +42,8 @@ int main()
     }
 
     srand((unsigned int)time(NULL));
-    for (int i = 0; i < size; i++) 
+    int i;
+    for (i = 0; i < size; i++) 
 	{
         X[i] = (float)(rand() % 100) + 1;
         Y[i] = (float)(rand() % 100) + 1;
