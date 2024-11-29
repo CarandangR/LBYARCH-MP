@@ -64,7 +64,8 @@ int main()
             printf("Time taken by scalarCompute: %.6f seconds\n", elapsed_time);
 
             printf("First 10 elements of Z:\n");
-            for (int i = 0; i < 10; i++) 
+            int i;
+            for (i = 0; i < 10; i++) 
 			{
                 printf("Z[%d] = %.2f\n", i, Z[i]);
             }
@@ -80,7 +81,8 @@ int main()
             printf("Time taken by assemblyCompute: %.6f seconds\n", elapsed_time);
 
             printf("First 10 elements of Z:\n");
-            for (int i = 0; i < 10; i++) {
+            int i;
+            for (i = 0; i < 10; i++) {
                 printf("Z[%d] = %.2f\n", i, Z[i]);
             }
         } 
